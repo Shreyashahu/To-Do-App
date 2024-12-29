@@ -15,6 +15,11 @@ btn.addEventListener("click", function(){
     int.value = "";
 });
 
+inp.addEventListener("keypress", function(event){
+    if(event.key == "Enter")
+        btn.click();
+});
+
 ul.addEventListener("click", function(event){
     if(event.target.nodeName == "BUTTON"){
         let item = event.target.parentElement;
