@@ -1,18 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .box{
-    margin: 70px 0px 0px 350px;
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
 }
 
-#inp{
-    font-size: 20px;
-    padding: 5px;
-}
-
-button{
-    padding: 5px;
-    font-size: 20px;
+.box h1{
+    text-align: center;
 }
