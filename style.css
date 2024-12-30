@@ -8,3 +8,20 @@
 .box h1{
     text-align: center;
 }
+
+.inpBox{
+    text-align: center;
+}
+
+#inp{
+    height: 25px;
+    padding: 5px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.inpBox button{
+    height: 35px;
+    padding: 5px;
+    border-radius: 7px;
+}
